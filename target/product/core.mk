@@ -23,6 +23,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.alarm_alert=Alarm_Classic.ogg
 
 PRODUCT_PACKAGES += \
+    SmartcardService \
+    org.simalliance.openmobileapi \
+    org.simalliance.openmobileapi.xml \
+    libassd \
     ApplicationsProvider \
     BackupRestoreConfirmation \
     BasicDreams \
